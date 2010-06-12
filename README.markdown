@@ -1,4 +1,4 @@
-# DDSocialDialog, a FacebookConnect look-alike dialog for iPhone and iPod
+# DDSocialDialog, a FacebookConnect look-alike dialog for iPhone and iPad
 
 DDSocialDialog is a UIView subclass looks like FacebookConnect dialog.
 
