@@ -59,7 +59,6 @@ typedef enum{
 - (id)initWithFrame:(CGRect)frame theme:(DDSocialDialogTheme)theme;
 - (void)show;
 - (void)cancel;
-- (void)dismiss:(BOOL)animated;
 @end
 
 
