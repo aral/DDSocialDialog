@@ -6,11 +6,12 @@ DDSocialDialog is a UIView subclass looks like FacebookConnect dialog.
 
 ## Features
 
-1. A **DDSocialDialog** dialog with an empty contentView for customizing.
-2. A extended **DDSocialLoginDialog** dialog for retrieving username and password.
-3. **Two themes**: Twitter and Plurk. And you can create your own if you like.
-4. Optimized for different resolutions, including iPhone, iPad and iPhone 4 (**Retina Display**, 960 by 640).
-5. Support orientations, works great with keyboard on or off, even acting better than FacebookConnect SDK.
+1. Easy to use, just like UIAlertView.
+2. A DDSocialDialog dialog with an *empty contentView* for customizing.
+3. A extended DDSocialLoginDialog dialog for retrieving *username and password*.
+4. Two themes: Twitter and Plurk. And you can create your own if you like.
+5. Optimized for different resolutions, including iPhone, iPad and iPhone 4 (*Retina Display, 960 by 640*).
+6. Support orientations, you can rotate with keyboard on or off. This part is acting better than FacebookConnect SDK.
 
 ## Requirement
 
