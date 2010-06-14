@@ -85,7 +85,8 @@
 	DDSocialDialogTheme dialogTheme = (indexPath.section == 0) ? DDSocialDialogThemeTwitter : DDSocialDialogThemePlurk;
 	
 	if (indexPath.row == 0) {
-		DDSocialDialog *blankDialog = [[DDSocialDialog alloc] initWithFrame:CGRectMake(self.view.center.x, self.view.center.y, 300., 250.) theme:dialogTheme];
+		// We ignored the frame.origin position, the dialog will be placed at the center automatically.
+		DDSocialDialog *blankDialog = [[DDSocialDialog alloc] initWithFrame:CGRectMake(0., 0., 300., 250.) theme:dialogTheme];
 		blankDialog.dialogDelegate = self;
 		blankDialog.titleLabel.text = @"My Dialog";
 		[blankDialog show];

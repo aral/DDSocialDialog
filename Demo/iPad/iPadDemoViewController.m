@@ -78,7 +78,8 @@
 	switch ([[sender valueForKey:@"tag"] integerValue]) {
 		case 0: 
 		{
-			DDSocialDialog *blankDialog = [[DDSocialDialog alloc] initWithFrame:CGRectMake(self.view.center.x, self.view.center.y, 600., 500.) theme:DDSocialDialogThemeTwitter];
+			// We ignored the frame.origin position, the dialog will be placed at the center automatically.
+			DDSocialDialog *blankDialog = [[DDSocialDialog alloc] initWithFrame:CGRectMake(0., 0., 600., 500.) theme:DDSocialDialogThemeTwitter];
 			blankDialog.dialogDelegate = self;
 			blankDialog.titleLabel.text = @"My Twitter Dialog";
 			[blankDialog show];
@@ -95,7 +96,8 @@
 			break;
 		case 2:
 		{
-			DDSocialDialog *blankDialog = [[DDSocialDialog alloc] initWithFrame:CGRectMake(self.view.center.x, self.view.center.y, 600., 500.) theme:DDSocialDialogThemePlurk];
+			// We ignored the frame.origin position, the dialog will be placed at the center automatically.
+			DDSocialDialog *blankDialog = [[DDSocialDialog alloc] initWithFrame:CGRectMake(0., 0., 600., 500.) theme:DDSocialDialogThemePlurk];
 			blankDialog.dialogDelegate = self;
 			blankDialog.titleLabel.text = @"My Plurk Dialog";
 			[blankDialog show];

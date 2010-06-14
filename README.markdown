@@ -20,9 +20,9 @@ DDSocialDialog is a UIView subclass looks like FacebookConnect dialog.
 
 ## Usage
 
-Very similar to UIAlertView. For DDSocialDialog, you can init with your prefer size and theme:
+Very similar to UIAlertView. For DDSocialDialog, you can init with your prefer size (position is ignored) and theme:
 
-    DDSocialDialog *blankDialog = [[DDSocialDialog alloc] initWithFrame:CGRectMake(self.view.center.x, self.view.center.y, 600., 500.) theme:DDSocialDialogThemeTwitter];
+    DDSocialDialog *blankDialog = [[DDSocialDialog alloc] initWithFrame:CGRectMake(0., 0., 600., 500.) theme:DDSocialDialogThemeTwitter];
     blankDialog.dialogDelegate = self;
     blankDialog.titleLabel.text = @"My Twitter Dialog";
     [blankDialog.contentView addSubview:self.mySubview];
